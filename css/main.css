@@ -61,6 +61,6 @@ span {
   margin-right: 15px;
 }
 
-li:hover span , li:hover:active span{
+li:hover span{
   display: inline-block;
 }
