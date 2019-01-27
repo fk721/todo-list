@@ -1,0 +1,66 @@
+body {
+  background: #9099a2;
+  color: black;
+}
+
+#container {
+  max-width: 1000px;
+  margin: 100px auto;
+  background: white;
+  box-shadow: 0 0 3px rgba(0,0,0,.1);
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+}
+
+h1 {
+  background: #96858f;
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+input[type=text]{
+  /* add stuff */
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 20px;
+  background: #f1f1f2;
+  padding: 15px 15px 15px 20px;
+  color: black;
+}
+
+input[type=text]:focus {
+  background: white;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li:nth-child(2n){
+  background: #d5d5d5;
+}
+
+.done {
+  color: grey;
+  text-decoration: line-through;
+}
+
+span {
+  display: none;
+  color: red;
+  margin-right: 15px;
+}
+
+li:hover span , li:hover:active span{
+  display: inline-block;
+}
