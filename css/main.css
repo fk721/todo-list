@@ -22,8 +22,8 @@ h1 {
 }
 
 input[type=text]{
-  /* add stuff */
   box-sizing: border-box;
+   --webkit-transition: box-sizing border-box;
   width: 100%;
   font-size: 20px;
   background: #f1f1f2;
