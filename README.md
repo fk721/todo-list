@@ -1,2 +1,3 @@
-# -memo-todo-list
-todo list created using JavaScript
+# todo-list
+
+Simple todo list with cool animations
